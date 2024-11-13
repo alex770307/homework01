@@ -1,4 +1,5 @@
-document.getElementById("toggleDescription").addEventListener("click", function () {
+document.getElementById("toggleDescription").addEventListener("click",
+    function () {
     const description = document.getElementById("description");
     if (description.style.display === "none") {
         description.style.display = "block";
